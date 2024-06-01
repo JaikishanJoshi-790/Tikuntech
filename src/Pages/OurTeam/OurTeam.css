@@ -1,0 +1,44 @@
+.specialists-container {
+  text-align: center;
+  background-color: #f7f7f7;
+  padding: 50px 0 120px 0;
+}
+
+.specialists-container h2 {
+  color: #3aafa9;
+  font-size: 38px;
+}
+
+.specialists-container h3 {
+  color: #2b7a78;
+  margin-bottom: 40px;
+  font-size: 22px;
+}
+
+.specialists {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.specialist {
+  text-align: center;
+}
+
+.specialist-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.specialist h4 {
+  margin-top: 10px;
+  color: #2b7a78;
+  font-size: 1.4rem;
+}
+
+.specialist p {
+  color: #17252a;
+  font-size: 1.2rem;
+}

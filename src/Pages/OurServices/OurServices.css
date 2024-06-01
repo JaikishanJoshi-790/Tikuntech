@@ -1,0 +1,60 @@
+/* src/components/OurServices/OurServices.css */
+.services-container {
+  padding: 30px 130px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.services-title {
+  font-size: 2.5em;
+  color: #00A098;
+  margin-bottom: 40px;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.service-item {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 25%;
+  margin-bottom: 40px;
+  padding: 20px;
+
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-item:hover {
+  transform: translateY(-10px);
+}
+
+.service-svg {
+  width: 70px;
+  height: 70px;
+  fill: #f4a261;
+  stroke: #f4a261; 
+  stroke-width: 1;
+}
+.service-svg:hover{
+  fill: #00A098;
+  cursor: pointer;
+}
+
+.service-title {
+  font-size: 1.5em;
+  color: #333;
+  margin-top: 10px;
+}
+
+.service-description {
+  font-size: 1em;
+  color: #666;
+  margin-top: 10px;
+}

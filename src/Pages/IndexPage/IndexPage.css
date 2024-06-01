@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;1,700&family=Black+Ops+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400&family=Rubik+Bubbles&family=Satisfy&family=Shadows+Into+Light&family=Silkscreen&family=Tiro+Devanagari+Hindi&display=swap');
+
+
 .indexPage {
      position: relative;
      height: 100vh;
@@ -37,6 +40,7 @@
      flex-direction: column;
      gap: 20px;
      max-width: 60vw;
+     font-weight: 400;
    }
    
    .mainContainerIndexPage h1 {
